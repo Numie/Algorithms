@@ -1,7 +1,7 @@
 require 'rspec'
 require 'quick_sort'
 
-describe 'quikc_sort' do
+describe 'quick_sort' do
   it 'sorts an empty array' do
     expect(quick_sort([])).to eq([])
   end
